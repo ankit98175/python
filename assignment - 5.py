@@ -7,6 +7,7 @@ student_dict ={
 }
 missing_student = input("Enter the name of the student: ")
 if missing_student not in student_dict:
+    print(student_dict)
     print(f"{missing_student} name not found.")
 else:
     print("Student Marks Dictionary:", student_dict)
@@ -18,4 +19,5 @@ print("Original List:", My_list)
 Extracted_list = My_list[0:5]
 print("Extracted List:", Extracted_list)
 reversed_list = Extracted_list[::-1]
+
 print("Reversed List:", reversed_list)
